@@ -1,0 +1,323 @@
+
+body{
+	margin:0;
+	font-family:'Lora', serif;
+}
+
+img{
+	width:100%;
+}
+
+.clearfix{
+	clear:both;
+}
+
+header{
+	background-image: url("../images/main_banner.jpg");
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+header img {
+	width:300px;
+	margin: 10px 0 0 30px;
+}
+
+nav{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+nav ul li{
+	float: left;
+	margin-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	list-style: none;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+header h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 96px;
+	font-weight: 800; 
+	color: #88EBF2;
+	margin: 0;
+}
+
+header h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 400; 
+	color: white;
+	letter-spacing: 40px;
+	margin: 0;
+}
+
+#blurb{
+	position:absolute;
+	bottom:10px;
+	left:30px;
+}
+
+main{
+	background-color:#DDD9D8;
+}
+
+.section-title{
+	text-align:center;
+	padding-top:100px;
+	padding-bottom:50px;
+}
+
+.section-title h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size:24px;
+	font-weight:400;
+	letter-spacing:30px;
+	margin:0;
+}
+
+
+#services{
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.card{
+	width:300px;
+	float:left;
+	margin-left:30px;
+}
+
+
+.card:first-child{
+	margin-left:0px;
+}
+
+
+.card h4{
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #88EBF2;
+    padding: 40px 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+.footer-container {
+    width: 1000px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right {
+    width: 50%;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-left img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.footer-right {
+    text-align: left;
+}
+
+.footer-right p {
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map img {
+    width: 240px;
+    height: auto;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use flexbox to align items in a row */
+    justify-content: center; /* Center the links if needed */
+}
+
+.footer-links li {
+    margin: 0 20px; /* Match the spacing with other elements */
+    font-family: 'Open Sans', sans-serif; /* Match the font family */
+    font-size: 14px; /* Adjust font size to match */
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Clearfix for Footer */
+.footer-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+
+
+
+/* Contact Us Page Styles */
+#contact-us {
+    background-color: #DDD9D8; /* Beige background */
+    padding: 50px 0;
+    text-align: left;
+}
+
+.contact-container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white; /* White background for the content */
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+}
+
+.contact-container h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.map-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map {
+    width: 600px;
+    height: 450px;
+}
+
+.contact-details {
+    width: 285px;
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-details p {
+    margin-bottom: 10px;
+}
+
+/* Contact Us Page Header Styles */
+.contact-header {
+    background-color: #5C4033; /* Brown background */
+    height: 100px; /* Adjust the height if needed */
+    position: relative;
+    background-image: none; /* Remove any background image */
+}
+
+/* Adjust logo styling for Contact Us page */
+.contact-header img {
+    width: 200px;
+    margin: 40px 0 0 30px; /* Increase the top margin to move the logo lower */
+}
+
+/* Navigation Styles for Contact Us */
+.contact-header nav {
+    position: absolute;
+    top: 35px; /* Center the navigation vertically */
+    right: 30px;
+}
+
+.contact-header nav ul li {
+    float: left;
+    margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    list-style: none;
+}
+
+.contact-header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Additional Styling for Contact Page Layout */
+main.contact-page {
+    background-color: #DDD9D8; /* Beige background for the page */
+    padding: 20px;
+}
+
+/* White background for the map and contact info section */
+.contact-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* Remove the blurb section for Contact Us */
+.contact-header #blurb {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
